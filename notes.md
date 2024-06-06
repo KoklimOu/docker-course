@@ -1,0 +1,1 @@
+- When we EXPOSE the port, and run the local to with that port, it not working because the container is run seperate from our computer. we need to map it
