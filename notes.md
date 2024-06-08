@@ -44,3 +44,12 @@ server is also call Docker Engine
 
 - Dovckerfiles Consistency:
    - The `Dockerfile` ensures that everyone is using the same versions of the dependencies, configureations, and environment settings, This eliminates discrepancoes caused by different local setups.
+
+
+# *Run `docker-compose build --no-cache` sometime there is a cache that make something wrong with the new build*
+
+
+ - Compose watch can:
+   - sync: sync from the host file system to the conatianer file system, to make sure that the code is up to date. 
+   - rebuild: rebuild/restart the container.
+   - sync restart: sync + rebuild.
