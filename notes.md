@@ -46,7 +46,7 @@ server is also call Docker Engine
    - The `Dockerfile` ensures that everyone is using the same versions of the dependencies, configureations, and environment settings, This eliminates discrepancoes caused by different local setups.
 
 
-# *Run `docker-compose build --no-cache` sometime there is a cache that make something wrong with the new build*
+# *Run `docker-compose build --no-cache` sometime there is a cache that make something wrong with the new build. when facing any problem try to clear cache,*
 
 
  - Compose watch can:
